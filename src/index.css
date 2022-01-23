@@ -1,0 +1,96 @@
+.popub{ 
+  z-index:1000;
+  position:'absolute';
+  inset: 0;
+  display:'flex';
+  align-items:'center';
+  justify-content:'center';
+  background-color:black;
+  opacity:0.7
+}
+.popub--primary{
+  background-color: white;
+}
+.popub--secondary{
+  background-color: black ;
+}
+.popub__image{
+  background-color: transparent;
+}
+.popub__image--small{
+  width: 30px;
+}
+.popub__image--medium{
+  width: 60px;
+}
+.popub__image--large{
+  width: 90px;
+}
+.listofcities{
+  z-index: 1000 !important;
+  overflow: scroll !important;
+  max-height: 300px;
+}
+.listofcities--primary{
+  background-color: white;
+}
+.listofcities--secondary{
+  background-color: gray ;
+}
+.listofcities_item{
+  cursor: pointer;
+}
+.listofcities_item:hover{
+  background-color: honeydew;
+}
+.section-content{
+  background-color: white;
+  padding: 40px;
+  margin-top: 40px;
+}
+.daily-header{
+  font-size: larger;
+  font-weight: bold;
+  padding: 10px;
+}
+.daily-cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  cursor: pointer;
+  padding: 1rem 0rem;
+}
+.daily-cart:hover{
+  background-color: honeydew;
+}
+.daily-cart--rounded{
+  border-radius:1rem ;
+}
+.daily-cart_image{
+  background-color: transparent;
+}
+.daily-cart_btn{
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  display: inline-block !important;
+  color: white !important;
+  margin-left: 1rem;
+}
+.daily-cart_btn:hover{
+  opacity: 0.5;
+}
+.daily-cart_btn--primary{
+  background-color: blue !important;
+}
+.daily-cart_btn--secondary{
+  background-color: green !important;
+
+}
+.daily-cart_btn--rounded{
+  border-radius: 1rem !important;
+}
+
